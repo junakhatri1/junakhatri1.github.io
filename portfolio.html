@@ -2,49 +2,123 @@
 <html>
 <head>
     <Title> Portfolio </Title>
-    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="portfolio.css" type="text/css" />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 
 </head>
-<body>
+
+
+
+<body class="settingBackground">
+
     <header>
         <nav>
-            <ul class="nav nav-pills" style="float: right">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
 
-                <li role="presentation" class="active"><a href="#">About Me</a></li>
-                <li role="presentation"><a href="#">Projects</a></li>
-                <li role="presentation"><a href="#">Skills</a></li>
-                <li role="presentation"><a href="#">Contact</a></li>
-            </ul>
-            <img class=" headerImage" src="https://ak5.picdn.net/shutterstock/videos/9008698/thumb/1.jpg" />
+                    <li> <a class="page-scroll" href="#aboutMe">ABOUT ME</a></li>
+                    <li> <a class="page-scroll" href="#projects">RESUME</a></li>
+                    <li> <a class="page-scroll" href="#skills">SKILLS</a></li>
+                    <li><a class="page-scroll" href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="headerBackground">
+                <p class="name"> Juna Khatri KC</p>
+
+            </div>
         </nav>
     </header>
 
-    <div class="jumbotron">
-        
-            <img id="mypicture" src="Picture\picture.jpg" width="280" height="280"/>
-                 
+
+    <div class="jumbotron settingBackground">
+        <div class="container">
+            <img id="mypicture" src="Picture\picture.jpg" />
+
             <p id="aboutMe"> About Me </p>
 
-            <section class="newWrapper">
-            <p style="font-size: medium"> Hi, My name is Juna. I am currently a C# student at Tech Elevator which is 14 weeks intense coding bootcamp.
-                I am also a business graduate, major in Finance and I have worked in banking, retail and business industry.
-               My passion for programming started to grow when I was exposed to the C Language back in high school. <br />
-                Though I completed my bachelors degree in Business Administration, at the back of my head, I always wanted to learn programming.
-                At this point of time, I decided to move away from my comfort zone and push my limits to learn a new Language. Before joining
-                bootcamp I taught myself the concepts of Java for 5 months. The thing I love about programming is that the way it challenge you to apply
-                your analytical and critical thinking skills to solve problems.
+            <div class="newWrapper">
+                <p style="font-size: medium">
+                    Hi, My name is Juna. I am currently a C# student at Tech Elevator which is 14 weeks intense coding bootcamp.
+                    I am also a business graduate, major in Finance and I have worked in banking, retail and business industry.
+                    My passion for programming started to grow when I was exposed to the C Language back in high school. <br />
+                    Though I completed my bachelors degree in Business Administration, at the back of my head, I always wanted to learn programming.
+                    At this point of time, I decided to move away from my comfort zone and push my limits to learn a new Language. Before joining
+                    bootcamp I taught myself the concepts of Java for 5 months. The thing I love about programming is that the way it challenge you to apply
+                    your analytical and critical thinking skills to solve problems.
                 </p>
-              
-            </section>
-        <p style="font-size: small; margin-top: -30px;"> <i> JUNA KHATRI KC <br /> FULL STACK SOFTWARE DEVELOPER,<br /> BASED IN CLEVELAND, OH</i> </p>
+                <div style="font-size: small; margin-top: -65px; color: white"> <i> JUNA KHATRI KC <br /> FULL STACK SOFTWARE DEVELOPER,<br /> BASED IN CLEVELAND, OH</i> </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <p id="aboutMe"> My Skills </p>
+
+        <div class="container" style="margin-left: 50px">
+            <div class="col-sm-2">  <img src="Picture/csharp3.png" width="130" />  </div>
+            <div class="col-sm-2"> <img src="Picture/java.png" width="130" /> </div>
+            <div class="col-sm-2"> <img src="Picture/html.png" width="140" /> </div>
+            <div class="col-sm-2">  <img src="Picture/css.png" width="130" /> </div>
+            <div class="col-sm-2">    <img src="Picture/javascript_logo.png" width=" 130" /> </div>
         </div>
 
-  
+        <div class="container" style="margin-left:50px; margin-top: 20px" ;>
+            <div class="col-sm-2">  <img src="Picture/sql.png" width="170" />  </div>
+            <div class="col-sm-2"> <img src="Picture/bootstrap.jpg" width="130" /> </div>
 
-    <footer></footer>
+            <div class="col-sm-2"> <img src="Picture/bitbucket.png" width="160" /> </div>
+            <div class="col-sm-2"> <img src="Picture/tdd.png" width="170" /> </div>
+            <div class="col-sm-2">  <img src="Picture/git.jpg" width="130" /> </div>
+
+        </div>
+    </div>
+
+
+    <section class="headerBackground">
+        <div class="text-center">
+            <h3 style="color: white"> <i> What I have created, find out on Github!</i></h3> <br />
+        </div>
+        <div class="text-center">
+            <a href="https://github.com/junakhatri1" class="btn btn-default"> <i class="fa fa-2x fa-github text-primary sr-icons"></i> </a>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class=" container">
+            <div class="row">
+
+                <h2 class="text-center" style="color: white"> Contact Me </h2>
+
+</div>
+
+                
+                    <div class="col-lg-4 col-lg-offset-1 text-center">
+
+                        <i class=" mobile fa fa-mobile fa-3x "></i>
+
+                   
+                    <p> 909-485-7617 </p>
+                </div>
+              
+
+
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="email fa fa-envelope fa-3x "> </i>
+                    <p><a href="mailto:junakhatri@gmail.com">junakhatri@gmail.com </a></p>
+                </div>
+
+            </div>
+           
+    </footer>
+
 </body>
 
 </html>
