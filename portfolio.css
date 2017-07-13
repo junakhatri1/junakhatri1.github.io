@@ -36,7 +36,8 @@
 }
 
 #aboutMe {
-    margin-top: -30px;
+    margin-top: -50px;
+   
     text-align: center;
 }
 
@@ -52,10 +53,11 @@ p {
     color: white;
 }
 
-.mobile{
-    margin-right: 100%;
+
+.basicInfo {
+    color: white;
 }
 
-.email{
-    float: right;
+.phoneInfo{
+    margin-left: 80px;
 }
