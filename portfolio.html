@@ -5,93 +5,137 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <link rel="stylesheet" href="portfolio.css" type="text/css" />
 
 </head>
 
 <body class="settingBackground">
-    
-        <header>
-            <nav>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
 
-                        <li> <a class="page-scroll" href="#aboutMe">ABOUT ME</a></li>
-                        <li> <a class="page-scroll" href="#projects">RESUME</a></li>
-                        <li> <a class="page-scroll" href="#skills">SKILLS</a></li>
-                        <li><a class="page-scroll" href="#contact">CONTACT</a></li>
-                    </ul>
-                </div>
+    <header>
+        <nav>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
 
-
-                <div class="headerBackground">
-                    <p class="name"> Juna Khatri KC</p>
-
-                </div>
-            </nav>
-        </header>
-
-
-        <div class="jumbotron settingBackground">
-            <div class="container">
-                <img id="mypicture" src="Picture\picture.jpg" />
-                <div>
-                    <p id="aboutMe"> About Me </p>
-                </div>
-                <div class="newWrapper">
-                    <p style="font-size: medium">
-                        Hi, My name is Juna. I am currently a C# student at Tech Elevator which is 14 weeks intense coding bootcamp.
-                        I am also a business graduate, major in Finance and I have worked in banking, retail and business industry.
-                        My passion for programming started to grow when I was exposed to the C Language back in high school. <br />
-                        Though I completed my bachelors degree in Business Administration, I always wanted to learn programming.
-                        I decided to move away from my comfort zone and push my limits to learn a new Language. Before joining
-                        bootcamp I taught myself the concepts of Java.The thing I love about programming is that the way it challenges me to apply
-                        my analytical and critical thinking skills to solve problems.
-                    </p>
-                    
-                    </div>
+                    <li> <a class="page-scroll" href="#aboutMe">ABOUT ME</a></li>
+                    <li> <a class="page-scroll" href="#resume">RESUME</a></li>
+                    <li> <a class="page-scroll" href="#skills">SKILLS</a></li>
+                    <li><a class="page-scroll" href="#contact">CONTACT</a></li>
+                </ul>
             </div>
-        </div>
 
+            <div class="headerBackground">
+                <p class="name"> Juna Khatri KC</p>
+
+            </div>
+        </nav>
+    </header>
+    <br />
+
+    <div class="jumbotron settingBackground">
         <div class="container">
-            <h3 id="aboutMe"> My Skills </h3>
-            <div class="container" style="margin-left: 50px">
-                <div class="col-sm-2">  <img src="Picture/csharp3.png" width="130" />  </div>
-                <div class="col-sm-2"> <img src="Picture/java.png" width="130" /> </div>
-                <div class="col-sm-2"> <img src="Picture/html.png" width="140" /> </div>
-                <div class="col-sm-2">  <img src="Picture/css.png" width="130" /> </div>
-                <div class="col-sm-2">  <img src="Picture/javascript_logo.png" width=" 130" /> </div>
+            <img id="mypicture" src="Picture\picture.jpg" />
+            <div>
+                <p id="aboutMe"> About Me </p>
             </div>
+            <div class="newWrapper">
+                <p style="font-size: medium">
+                    Hi, My name is Juna. I am currently a C# student at Tech Elevator which is 14 weeks intense coding bootcamp.
+                    I am also a business graduate, major in Finance and I have worked in banking, retail and business industry.
+                    My passion for programming started to grow when I was exposed to the C Language back in high school. <br />
+                    <br /> Though I completed my bachelors degree in Business Administration, I always wanted to learn programming.
+                    I decided to move away from my comfort zone and push my limits to learn a new Language. Before joining
+                    bootcamp I taught myself the concepts of Java.The thing I love about programming is that the way it challenges me to apply
+                    my analytical and critical thinking skills to solve problems.
+                </p>
 
-            <div class="container" style="margin-left:50px; margin-top: 20px">
-                <div class="col-sm-2">  <img src="Picture/sql.png" width="170" />  </div>
-                <div class="col-sm-2"> <img src="Picture/bootstrap.jpg" width="130" /> </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="col-sm-2"> <img src="Picture/bitbucket.png" width="160" /> </div>
-                <div class="col-sm-2"> <img src="Picture/tdd.png" width="170" /> </div>
-                <div class="col-sm-2">  <img src="Picture/git.jpg" width="130" /> </div>
+    <div class="container" id="resume">
+           <div class="text-center">
+            <h3 style="color: white">  Click here to view my Resume </h3> 
+            <div>
+                <ul class="list-unstyled">
+                  <li>   <i class="fa fa-5x fa-file-pdf-o" aria-hidden="true"></i> </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+   
+   
+    
+        <div class="container">
+            <div id="skills">
+                <h3 id="aboutMe" style="color:aliceblue"> My Skills </h3>
+            </div>
+            <br />
+            <div class="container" style="margin-left: 50px">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <i class="fa fa-5x fa-code" aria-hidden="true"></i>
+                        <ul class="list-unstyled" style="color:aliceblue">
+                            <li> C#</li>
+                            <li>Java</li>
+                            <li>Javascript</li>
+                            <li>C</li>
+                        </ul>
+
+                    </div>
+                    <div class="col-sm-2">
+                        <i class="fa fa-5x fa-html5" aria-hidden="true"></i>
+                        <ul class="list-unstyled" style="color:aliceblue">
+                            <li>HTML5</li>
+                        </ul>
+
+                    </div>
+                    <div class="col-sm-2">
+                        <i class="fa fa-5x fa-css3" aria-hidden="true"></i>
+                        <ul class="list-unstyled">
+                            <li class="pContents" style="color:aliceblue">CSS</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <i class="fa fa-5x fa-check-circle" aria-hidden="true"></i>
+                        <ul class="list-unstyled" style="color:aliceblue">
+                            <li>Unit Testing</li>
+                            <li>JUnit</li>
+                            <li>Test Driven Development (TDD)</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <i class="fa fa-5x fa-database" aria-hidden="true"></i>
+                        <ul class="list-unstyled" style="color:aliceblue">
+                            <li>SQL Server</li>
+                        </ul>
+
+                    </div>
+                </div>
             </div>
         </div>
 
-      
-            <section class="headerBackground">
-                <div class="text-center">
-                    <h3 style="color: white"> <i> What I have created, find out on Github!</i></h3> <br />
-                </div>
-                <div class="text-center">
+
+        <section class="headerBackground">
+            <div class="text-center">
+                <h3 style="color: white"> <i> What I have created, find out on Github!</i></h3> <br />
+
+                <!--<div class="text-center">-->
                     <a href="https://github.com/junakhatri1" class="btn btn-default"> <i class="fa fa-2x fa-github text-primary sr-icons"></i> </a>
-                </div>
-            </section>
-      
-        <footer class="container">
-             <h3 class="text-center" style="color: white"> Contact Me </h3>
+                <!--</div>-->
+            </div>
+        </section>
+
+        <footer class="container" id="contact">
+            <h3 class="text-center" style="color: white"> Contact Me </h3>
 
             <div class="row">
                 <div class="col-sm-offset-4">
                     <div class="col-sm-4 ">
-                      <i class="mobile fa fa-mobile fa-3x"></i>
+                        <i class="mobile fa fa-mobile fa-3x"></i>
                     </div>
                     <div class="col-sm-4">
                         <i class="email fa fa-envelope fa-3x"> </i>
@@ -103,15 +147,15 @@
             <div class="row">
                 <div class="col-sm-offset-2">
                     <div class="col-sm-2 ">
-                        <p style="padding-left: 12em">909-485-7617</p>  
+                        <p style="padding-left: 12em">909-485-7617</p>
                     </div>
-                    <div class="col-sm-offset-7">
+                    <div class="col-sm-offset-5">
                         <p><a href="mailto:junakhatri@gmail.com">junakhatri@gmail.com </a></p>
 
                     </div>
                 </div>
-            </div>           
-        </footer> 
+            </div>
+        </footer>
 </body>
 
 </html>

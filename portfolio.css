@@ -33,6 +33,7 @@
 .newWrapper {
     display: block;
     margin-left: 10px;
+    
 }
 
 #aboutMe {
@@ -60,4 +61,8 @@ p {
 
 .phoneInfo{
     margin-left: 80px;
+}
+
+.skillHeader{
+    color: white;
 }
